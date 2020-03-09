@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <h1>Welcome to, &lt; Site Name &gt; </h1>
+            <h2>Get your mobile app in 3 easy steps.</h2>
+            <form method="POST" id="signup-form" class="signup-form" enctype="multipart/form-data">
+                <h3>
+                    Name
+                </h3>
+                <fieldset>
+                    <h2>Name Your App</h2>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="App Name"/>
+                    </div>
+                </fieldset>
+
+                <h3>
+                    Content
+                </h3>
+                <fieldset>
+                    <h2>Enter Your Facebook Page</h2>
+                    <div class="form-group">
+                        <input type="text" name="socials_twitter" id="socials_twitter" placeholder="Facebook Page"/>
+                    </div>
+
+                </fieldset>
+
+                <h3>
+                    Create
+                </h3>
+                <fieldset> 
+                    <h2>Your App will be ready in a few seconds.</h2>
+                    <div><i class="fas fa-cog fa-spin fa-3x"></i></div>
+                    <!-- <div class="form-group">
+                        <input type="text" name="your_name" id="your_name" placeholder="Your name"/>
+                    </div> -->
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/e063c3ce00.js" crossorigin="anonymous"></script>
+</body>
+</html>
